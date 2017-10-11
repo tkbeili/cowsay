@@ -10,7 +10,9 @@ Add this line to your application's Gemfile:
 
 And then execute:
 
-    $ cowsay 'Hello world!'
+    $ require 'cowsay'
+    $ puts Cowsay.say('Hello world!', :cow)
+
 
 ## Contributing
 
